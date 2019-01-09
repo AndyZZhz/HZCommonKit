@@ -20,10 +20,10 @@
 		0B05F45821E5DE8F001D0F69 /* UIView+CalcLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F43E21E5DE8F001D0F69 /* UIView+CalcLayout.m */; };
 		0B05F45921E5DE8F001D0F69 /* NSString+EmojiExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F44421E5DE8F001D0F69 /* NSString+EmojiExtension.m */; };
 		0B05F45A21E5DE8F001D0F69 /* NSString+HZSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F44521E5DE8F001D0F69 /* NSString+HZSize.m */; };
-		0B05F45B21E5DE8F001D0F69 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F44621E5DE8F001D0F69 /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0B05F45C21E5DE8F001D0F69 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F44721E5DE8F001D0F69 /* NSString+Extension.m */; };
 		0B05F45D21E5DE8F001D0F69 /* NSString+URLParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F44921E5DE8F001D0F69 /* NSString+URLParameter.m */; };
 		0B05F45E21E5DE8F001D0F69 /* NSArray+HZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05F44B21E5DE8F001D0F69 /* NSArray+HZExtension.m */; };
+		5AD940E0C38ABE65FA7859EC /* libPods-HZCommonKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9F4673F82C31D71203BACC /* libPods-HZCommonKitDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,13 +48,11 @@
 		0B05F43B21E5DE8F001D0F69 /* UIButton+HZStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HZStyle.m"; sourceTree = "<group>"; };
 		0B05F43D21E5DE8F001D0F69 /* UIView+CalcLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CalcLayout.h"; sourceTree = "<group>"; };
 		0B05F43E21E5DE8F001D0F69 /* UIView+CalcLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CalcLayout.m"; sourceTree = "<group>"; };
-		0B05F44021E5DE8F001D0F69 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
 		0B05F44121E5DE8F001D0F69 /* NSString+HZSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HZSize.h"; sourceTree = "<group>"; };
 		0B05F44221E5DE8F001D0F69 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		0B05F44321E5DE8F001D0F69 /* NSString+URLParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLParameter.h"; sourceTree = "<group>"; };
 		0B05F44421E5DE8F001D0F69 /* NSString+EmojiExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EmojiExtension.m"; sourceTree = "<group>"; };
 		0B05F44521E5DE8F001D0F69 /* NSString+HZSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HZSize.m"; sourceTree = "<group>"; };
-		0B05F44621E5DE8F001D0F69 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 		0B05F44721E5DE8F001D0F69 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		0B05F44821E5DE8F001D0F69 /* NSString+EmojiExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EmojiExtension.h"; sourceTree = "<group>"; };
 		0B05F44921E5DE8F001D0F69 /* NSString+URLParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLParameter.m"; sourceTree = "<group>"; };
@@ -66,6 +64,9 @@
 		0B05F45121E5DE8F001D0F69 /* HZPersistentDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZPersistentDefine.h; sourceTree = "<group>"; };
 		0B05F45221E5DE8F001D0F69 /* HZViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZViewDefine.h; sourceTree = "<group>"; };
 		0B05F45321E5DE8F001D0F69 /* HZColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZColorDefine.h; sourceTree = "<group>"; };
+		26BCDF5F8889B3CC7923A4A8 /* Pods-HZCommonKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZCommonKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZCommonKitDemo/Pods-HZCommonKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F5662D7ED60697B187F3EF72 /* Pods-HZCommonKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZCommonKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZCommonKitDemo/Pods-HZCommonKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FD9F4673F82C31D71203BACC /* libPods-HZCommonKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZCommonKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD940E0C38ABE65FA7859EC /* libPods-HZCommonKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +86,8 @@
 			children = (
 				0B05F41621E5DE4F001D0F69 /* HZCommonKitDemo */,
 				0B05F41521E5DE4F001D0F69 /* Products */,
+				43678F680FA2CBCB398B81D3 /* Pods */,
+				8FC338D744BC8691027CB34D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,8 +143,8 @@
 		0B05F43021E5DE8F001D0F69 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				0B05F43121E5DE8F001D0F69 /* UIImage+Extension.m */,
 				0B05F43221E5DE8F001D0F69 /* UIImage+Extension.h */,
+				0B05F43121E5DE8F001D0F69 /* UIImage+Extension.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -148,8 +152,8 @@
 		0B05F43321E5DE8F001D0F69 /* UIWindow */ = {
 			isa = PBXGroup;
 			children = (
-				0B05F43421E5DE8F001D0F69 /* UIWindow+HZVisible.m */,
 				0B05F43521E5DE8F001D0F69 /* UIWindow+HZVisible.h */,
+				0B05F43421E5DE8F001D0F69 /* UIWindow+HZVisible.m */,
 			);
 			path = UIWindow;
 			sourceTree = "<group>";
@@ -157,8 +161,8 @@
 		0B05F43621E5DE8F001D0F69 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				0B05F43721E5DE8F001D0F69 /* UILabel+HZStyle.m */,
 				0B05F43821E5DE8F001D0F69 /* UILabel+HZStyle.h */,
+				0B05F43721E5DE8F001D0F69 /* UILabel+HZStyle.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -184,15 +188,13 @@
 		0B05F43F21E5DE8F001D0F69 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				0B05F44021E5DE8F001D0F69 /* NSString+URLEncoding.h */,
-				0B05F44121E5DE8F001D0F69 /* NSString+HZSize.h */,
-				0B05F44221E5DE8F001D0F69 /* NSString+Extension.h */,
-				0B05F44321E5DE8F001D0F69 /* NSString+URLParameter.h */,
-				0B05F44421E5DE8F001D0F69 /* NSString+EmojiExtension.m */,
-				0B05F44521E5DE8F001D0F69 /* NSString+HZSize.m */,
-				0B05F44621E5DE8F001D0F69 /* NSString+URLEncoding.m */,
-				0B05F44721E5DE8F001D0F69 /* NSString+Extension.m */,
 				0B05F44821E5DE8F001D0F69 /* NSString+EmojiExtension.h */,
+				0B05F44421E5DE8F001D0F69 /* NSString+EmojiExtension.m */,
+				0B05F44221E5DE8F001D0F69 /* NSString+Extension.h */,
+				0B05F44721E5DE8F001D0F69 /* NSString+Extension.m */,
+				0B05F44121E5DE8F001D0F69 /* NSString+HZSize.h */,
+				0B05F44521E5DE8F001D0F69 /* NSString+HZSize.m */,
+				0B05F44321E5DE8F001D0F69 /* NSString+URLParameter.h */,
 				0B05F44921E5DE8F001D0F69 /* NSString+URLParameter.m */,
 			);
 			path = NSString;
@@ -201,8 +203,8 @@
 		0B05F44A21E5DE8F001D0F69 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
-				0B05F44B21E5DE8F001D0F69 /* NSArray+HZExtension.m */,
 				0B05F44C21E5DE8F001D0F69 /* NSArray+HZExtension.h */,
+				0B05F44B21E5DE8F001D0F69 /* NSArray+HZExtension.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -220,6 +222,23 @@
 			path = Macro;
 			sourceTree = "<group>";
 		};
+		43678F680FA2CBCB398B81D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26BCDF5F8889B3CC7923A4A8 /* Pods-HZCommonKitDemo.debug.xcconfig */,
+				F5662D7ED60697B187F3EF72 /* Pods-HZCommonKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FC338D744BC8691027CB34D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD9F4673F82C31D71203BACC /* libPods-HZCommonKitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B05F42A21E5DE50001D0F69 /* Build configuration list for PBXNativeTarget "HZCommonKitDemo" */;
 			buildPhases = (
+				0BB8EA2A0FD49A1720F89E7C /* [CP] Check Pods Manifest.lock */,
 				0B05F41021E5DE4F001D0F69 /* Sources */,
 				0B05F41121E5DE4F001D0F69 /* Frameworks */,
 				0B05F41221E5DE4F001D0F69 /* Resources */,
@@ -285,12 +305,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BB8EA2A0FD49A1720F89E7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZCommonKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B05F41021E5DE4F001D0F69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B05F45B21E5DE8F001D0F69 /* NSString+URLEncoding.m in Sources */,
 				0B05F45721E5DE8F001D0F69 /* UIButton+HZStyle.m in Sources */,
 				0B05F45D21E5DE8F001D0F69 /* NSString+URLParameter.m in Sources */,
 				0B05F41C21E5DE4F001D0F69 /* ViewController.m in Sources */,
@@ -443,6 +483,7 @@
 		};
 		0B05F42B21E5DE50001D0F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BCDF5F8889B3CC7923A4A8 /* Pods-HZCommonKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,6 +501,7 @@
 		};
 		0B05F42C21E5DE50001D0F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5662D7ED60697B187F3EF72 /* Pods-HZCommonKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

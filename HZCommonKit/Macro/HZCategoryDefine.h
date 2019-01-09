@@ -10,7 +10,6 @@
 #define HZCategoryDefine_h
 
 #import "NSString+Extension.h"
-#import "NSString+URLEncoding.h"
 #import "NSString+URLParameter.h"
 #import "NSString+EmojiExtension.h"
 #import "NSString+HZSize.h"

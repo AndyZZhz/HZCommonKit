@@ -1,0 +1,16 @@
+PODS:
+  - HZCommonKit (0.0.1)
+
+DEPENDENCIES:
+  - HZCommonKit (from `../`)
+
+EXTERNAL SOURCES:
+  HZCommonKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HZCommonKit: 51d4a7eb08981c1bbb13f13858e034c2b2cbd7b6
+
+PODFILE CHECKSUM: 56752da5d795c2a31fbdaa33355ca80b53c46af6
+
+COCOAPODS: 1.5.3
